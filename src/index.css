@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+  min-height: 100vh;
+
+  background: linear-gradient(180deg, #373E44 -100%, #191B1F 100%);
+
+}
+
+.app {
+  background: linear-gradient(180deg, #373E44 -100%, #191B1F 100%);
+}
+
+.bar {
+  border-radius: 2.459px;
+  background: var(--light-glass-fill-10-neutral, linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), linear-gradient(180deg, rgba(40, 40, 40, 0.10) 0%, rgba(248, 248, 248, 0.10) 100%));
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.33);
+  backdrop-filter: blur(4.918659687042236px);
+  -webkit-backdrop-filter: blur(4.918659687042236px);
+}
+
+.box {
+
+  background: #363C43;
+  box-shadow: 5.67px 5.67px 3.78px 0px rgba(0, 0, 0, 0.40);
+}
+
+.tab-bar {
+  background: #171717;
+
+  box-shadow: 0px 4.96px 12.4px 2.48px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+.tab-bar .tabs {
+  background: #28292F;
+  color: #FFF;
+  box-shadow: -8.433px -16.867px 50.6px -16.867px #485B71, 13.493px 16.867px 67.467px 8.433px #0A0A0A;
+}
+
+.section {
+  color: #969696;
+
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Gallery-button {
+  color: #FFF;
+  padding: 16px 38px 16px 39px;
+  font-size: 1.2vw;
+  border-radius: 20px;
+  background: #171717;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25) inset;
+}
