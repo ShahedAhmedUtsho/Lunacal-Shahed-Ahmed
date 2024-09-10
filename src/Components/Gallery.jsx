@@ -20,6 +20,11 @@ const Gallery = () => {
 
 
 
+
+
+
+
+
             <div className=' w-full flex-col flex mr-[1.5vw]     '>
 
 
@@ -50,13 +55,13 @@ const Gallery = () => {
                 </section>
                 
                 <section className='  w-full h-full flex gap-[1vw]  overflow-y-scroll items-center justify-between  jakarta section '>
-            <span className='bg-slate-600 max-w-[190px] w-full h-full max-h-[170px] rounded-3xl '>
+            <span className='bg-slate-600 max-w-[190px] w-full h-full max-h-[13vw] rounded-[1.672vw] '>
 
             </span>
-            <span className='bg-slate-600 max-w-[190px] w-full h-full max-h-[170px] rounded-3xl '>
+            <span className='bg-slate-600 max-w-[190px] w-full h-full max-h-[13vw] rounded-[1.672vw] '>
 
 </span>
-<span className='bg-slate-600 max-w-[190px] max-h-[170px] w-full h-full rounded-3xl '>
+<span className='bg-slate-600 max-w-[190px] max-h-[13vw] w-full h-full rounded-[1.672vw] '>
 
 </span>
                 </section>
